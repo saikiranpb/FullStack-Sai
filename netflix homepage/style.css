@@ -1,0 +1,242 @@
+body{
+  margin: 0;
+  font-family: 'Netflix Font', sans-serif;
+}
+.bg{
+    background:linear-gradient(to top,rgb(0 0 0 / 90%) 0,rgb(0 0 0 / 37%) 50%,rgb(0 0 0 / 96%) 100%), url(nbg.jpg);
+    height: 748.4px;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+.login-signup-row{
+    padding-left: 53px;
+}
+.img1{
+    height: 55px;
+    width: auto;
+}
+.head{
+    padding-left: 50px;
+    
+}
+.fa{
+    color: white;
+}
+.logo{
+   padding-left: 13px;
+   padding-top: 1px;
+}
+.loginfo{
+    padding-right: 3rem;
+    padding-top: 4px;
+}
+.img2{
+    height: 25px;
+    width: auto;
+}
+.bi{
+    font-size: 15px;
+}
+.dropdown-toggle{
+    display: inline-block;
+    height: 44.5px;
+    width: 118.5px;
+    background-color: transparent;
+    color: white;
+    border: 0.1px solid white;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    margin-right: 35px;
+    /* align-items: center; */
+    padding-right: 10px;
+    padding-top: 5px;
+}
+option{
+    color: white;
+    background-color: grey;
+}
+.signin{
+    background-color:#e50914;
+    color: white;
+    width: 104px;
+    height: 44px;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.25rem;
+    align-items: center;
+    margin-right: 58px;
+    padding-top: 0;
+}
+.desc1row{
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 195px;
+}
+.desc1{
+    color: white;
+    font-size: 3.95rem;
+    font-weight: 650;   
+    max-width: 800px;
+    line-height: 1.1;
+}
+.desc2row{
+   margin-top: 16px;
+    
+}
+.desc2{
+    color: white;
+    font-size: 2rem;
+    font-weight: 400;
+ 
+}
+.desc3row{
+    padding-top: 13px;
+    padding-bottom: 20px;
+}
+.desc3{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.inputdiv{
+    display: flex ;
+    justify-content: flex-end;
+
+}
+.inputemail{
+    
+    display:flex;
+    background-color: white;
+    height: 70px;
+    width: 535px;
+    font-size: 20px;
+    padding: 17px 14px;
+    position: relative;
+    color: grey;
+}
+.startdiv{
+    display: flex;
+    justify-content: flex-start;
+}
+.start{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 2.2rem;
+    background-color: #e50914;
+    display: flex;
+    height: 71px;
+    width: 290px;
+    padding-top: 5px;
+   
+}
+.arrow{
+    margin-left: 20px;
+}
+.iconnxt{
+    color: white;
+    font-weight: 500;
+}
+@media only screen and (max-width:412px){
+    .img1{
+        height: 30px;
+       
+       }
+    .startdiv{
+        justify-content: center;
+    }
+    .inputdiv{
+        justify-content: center;
+    }
+    .desc1row{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 80px;
+    }
+    .desc1{
+        font-size: 2rem;
+    }
+    .desc2{      
+        font-size: 1.3rem;
+    }
+    .desc23{      
+        font-size: 1rem;
+    }
+    .desc3row{
+        padding-top: 0px;
+        padding-bottom: 5px;
+    }
+    .inputemail{
+        height: 65px;
+        width: 300px;
+    }
+}
+@media only screen and (max-width:768px){
+   .img1{
+    height: 33px;
+   
+   }
+   .login-signup-row{
+    padding-left: 5px;
+}
+   .loginfo{
+       padding-right: 1rem;
+   }
+   .dropdown-toggle{
+       height: 30px;
+       width: 85px;
+       margin-right: 3px;
+   }
+   .signin{
+    height: 30px;
+    width: 71px;
+    margin-right: 10px;
+    font-size: 1.1rem;
+}
+.desc1row{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 80px;
+}
+    .start{
+        height: 50px;
+        width: 160px;
+        font-size: 1.5rem;
+        padding-top: 6px;
+    }
+    .startdiv{
+        padding-top: 20px;
+    }
+    .inputemail{
+        height: 65px;
+        width: 350px;
+    }
+}
+
+
+
+@media only screen and (max-width:941px) and (min-width:412px) {
+    .startdiv{
+        justify-content: center;
+    }
+    .inputdiv{
+        justify-content: center;
+    }
+    .desc1{
+        font-size: 2.5rem;
+    }
+    .desc1row{
+        padding-top: 50px;
+    }
+    .desc2{       
+        font-size: 1.5rem;    
+    }
+    .desc3row{
+        padding-top: 0px;
+        padding-bottom: 5px;
+    }
+    .start{
+        font-size: 1.5rem;
+        padding-top: 10px;
+    }
+}
