@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+header{
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(171, 140, 141);
+}
+main{
+    padding: 30px;
+    display: inline-flex;
+    padding: 15px;
+}
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.left{
+
+}
+.list{
+    padding-left: 25px;
+}
+.card{
+    background-color: blueviolet;
+}
+.link{
+    height: 20px;
+    width:auto
+}

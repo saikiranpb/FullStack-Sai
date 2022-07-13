@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    background-color: #29273bed;
+}
+.header{
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #3e3b57ed;
+}
+.main{
+    display: flex;
+    padding-bottom: 60px;
+   background-color: #29273bed;
+}
+.player{
+   padding-right: 100px;
+    padding-left: 55px;
+    padding-top: 30px;
+    width: 65%;
+}
+#videoColumn{
+    
+    margin-left: 0px;
+    margin-top: 30px;
+}
+
+.footer{
+    display: flex;
+   justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #4c4963;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.left{
+    padding-left: 50px;
+    font-size: 35px;
+    font-weight: bold;
+    color: azure;
+}
+.list{
+    padding-left: 25px;
+}
+.card{
+    background-color: blueviolet;
+}
+.link{
+    margin-top: 10px;
+    height: 75px;
+    width:300px;
+    border: none;
+    background-color: #a4a6b1;  
+    color: rgb(34, 34, 60);
+    font-weight: 500;
+}
+.link:hover{
+    color:rgb(12, 12, 221);
+    transition: 0.25s ease-in;
+}
+.videoBox{
+    display:flex;
+    align-items: center;
+    
+    color: rgb(186, 185, 185);
+    height: 450px;
+    width: 800px;
+    border: 2px solid #E7E0DE;
+    transition: 1s ease-out;
+}
+#play:hover{
+    color: rgb(202, 76, 76);
+}
+#play{
+    cursor: pointer;
+}
+img{
+    width: 100%; /* or any custom size */
+    height: 94%; 
+    border: 2px solid white;
+   
+}
+.videoCard{
+    width: 30rem;
+    height: 8rem;
+     border: 3px solid #e2e3eb; 
+     background-color: #a4a6b1;
+     margin-left: 20px;
+     padding: 10px;
+     margin-bottom: 15px;
+     border-radius: 5px;
+     box-shadow: -5px 5px 10px #6c6c90;
+}
+#caption{
+    line-height: 1.25;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 10px;
+    
+    padding-bottom: 10px;
+    color: white;
+}
+#descr{
+    font-size: 16.5px;
+    font-weight: 400;
+    padding-left: 10px;
+    padding-top: 5px;
+   
+    color: white;
+}
