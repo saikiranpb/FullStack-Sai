@@ -1,0 +1,81 @@
+.header{
+    background-color: #CE0505;
+    height: 80px;
+    padding-left: 112px;
+    padding-top: 16px; 
+    
+}
+
+.icon{
+    display: inline-block;
+    top: 15px;
+    left: 102px;
+     width: 52px;
+    height: 52px;
+    /* UI Properties */
+     background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 50%;
+}
+.text{
+    height:47px;
+    width: 32px;
+    margin-left: 11px;
+    font-weight: 600;
+
+    font: normal  normal 600 33px/50px Poppins; 
+    font-size: 33px;
+    letter-spacing: 0px;
+    color: #EB2929;
+    opacity: 1;
+    font: Poppins;
+}
+.log{
+    display: inline-flex;
+    float: right;
+    margin-right: 101px;
+    margin-top: 8px;
+    width: 25%;
+    
+}
+.login{
+    margin-right: 23px;
+    border: 0;
+    background-color: #CE0505;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: right;
+    color: #ffffff;
+    cursor: pointer;
+}
+.login:hover{
+    color: antiquewhite;
+    opacity: 100%;
+}
+.createAcc{
+    top: 17px;
+    left: 1084px;
+   
+    height: 32px;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+    opacity: 1;
+    background-color: #CE0505;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #FFFFFF;
+    opacity: 1;
+    transition: all 0.25s ease-in;
+}
+.createAcc:hover{
+    background-color: #d81717;
+    color: antiquewhite;
+}
+ .tab{   
+   padding-left: 50px;
+   padding-right: 50px;
+   padding-top: 20px;
+ } 
+
+

@@ -48,7 +48,7 @@ body{
     background-color: blueviolet;
 }
 .link{
-    margin-top: 10px;
+   
     height: 75px;
     width:300px;
     border: none;
@@ -62,8 +62,8 @@ body{
 }
 .videoBox{
     display:flex;
-    align-items: center;
-    
+    align-items: center;  
+    padding-left: 360px; 
     color: rgb(186, 185, 185);
     height: 450px;
     width: 800px;
@@ -84,7 +84,7 @@ img{
 }
 .videoCard{
     width: 30rem;
-    height: 8rem;
+    height: 6.5rem;
      border: 3px solid #e2e3eb; 
      background-color: #a4a6b1;
      margin-left: 20px;
@@ -106,7 +106,6 @@ img{
     font-size: 16.5px;
     font-weight: 400;
     padding-left: 10px;
-    padding-top: 5px;
-   
+    padding-top: 5px;  
     color: white;
 }

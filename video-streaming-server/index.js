@@ -6,7 +6,7 @@ const videoCaption=document.getElementById("caption")
 const videoDescription=document.getElementById("descr")
 url = "http://localhost:8080/video/search";
 
-async function getMovies(url) {
+async function getVideo(url) {
   const disp = await fetch(url, { method: "GET" });
   const dispData = await disp.json();
 
@@ -16,7 +16,7 @@ async function getMovies(url) {
 
   return dispData;
 }
-getMovies(url);
+getVideo(url);
 
 function videoList(data) {
   videoColumn.innerHTML = "";
